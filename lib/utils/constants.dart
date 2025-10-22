@@ -1,0 +1,1 @@
+const String cinebot = 'CineBot 🎥';

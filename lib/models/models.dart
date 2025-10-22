@@ -1,0 +1,13 @@
+export 'package:cine_bot/models/collection.dart';
+export 'package:cine_bot/models/cast.dart';
+export 'package:cine_bot/models/credits.dart';
+export 'package:cine_bot/models/crew.dart';
+export 'package:cine_bot/models/gemini_error.dart';
+export 'package:cine_bot/models/genre.dart';
+export 'package:cine_bot/models/language.dart';
+export 'package:cine_bot/models/message.dart';
+export 'package:cine_bot/models/movie.dart';
+export 'package:cine_bot/models/movie_details.dart';
+export 'package:cine_bot/models/prod_company.dart';
+export 'package:cine_bot/models/prod_country.dart';
+export 'package:cine_bot/models/search_response.dart';

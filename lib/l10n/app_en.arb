@@ -1,0 +1,16 @@
+{
+  "errorTitle": "Something went wrong",
+  "tryAgainLater": "Please try again later.",
+  "typeYourMessage": "Type your message...",
+  "watchlist": "Watchlist",
+  "noMoviesAdded": "No movies added",
+  "reviews": "Reviews",
+  "originalTitle": "Original title",
+  "runtime": "Runtime",
+  "releaseDate": "Release date",
+  "directedBy": "Directed by",
+  "cast": "Cast",
+  "storyline": "Storyline",
+  "me": "Me",
+  "unexpectedError": "Unexpected error"
+}

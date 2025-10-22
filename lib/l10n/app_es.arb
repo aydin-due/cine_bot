@@ -1,0 +1,16 @@
+{
+  "errorTitle": "Algo salió mal",
+  "tryAgainLater": "Por favor, inténtalo de nuevo más tarde.",
+  "typeYourMessage": "Escribe tu mensaje...",
+  "watchlist": "Pendientes por ver",
+  "noMoviesAdded": "No se agregaron películas",
+  "reviews": "Reseñas",
+  "originalTitle": "Título original",
+  "runtime": "Duración",
+  "releaseDate": "Fecha de estreno",
+  "directedBy": "Dirigida por",
+  "cast": "Reparto",
+  "storyline": "Sinopsis",
+  "me": "Yo",
+  "unexpectedError": "Error inesperado"
+}
