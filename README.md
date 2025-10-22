@@ -35,22 +35,21 @@
 ---
 ## Demo
 
-![Demo video](https://www.youtube.com/shorts/OzwlkTCWAos)
+[Demo video](https://www.youtube.com/shorts/OzwlkTCWAos)
 
-Chat:
-![chat](readme_assets/chat.png)
+### Chat
+<p><img src="readme_assets/chat.PNG" alt="drawing" width="300"/></p>
 
-Watchlist:
-![watchlist](readme_assets/watchlist.png)
+### Watchlist
+<p><img src="readme_assets/watchlist.PNG" alt="drawing" width="300"/></p>
 
-Movie details:
-![details](readme_assets/details.png)
-![details](readme_assets/details_scrolled.png)
+### Movie details
+<p><img src="readme_assets/details.PNG" alt="drawing" width="300"/> <img src="readme_assets/details_scrolled.PNG" alt="drawing" width="300"/></p>
 
-Error handling:
-![error_handling](readme_assets/error.png)
+### Error handling
+<p><img src="readme_assets/error.PNG" alt="drawing" width="300"/></p>
 
-Pipedream RequestBin:
+### Pipedream RequestBin
 ![pipedream_requestbin](readme_assets/pipedream.png)
 
 --- 
@@ -58,7 +57,7 @@ Pipedream RequestBin:
 
 ## Instrucciones para correr la app
 
-### 1. Clonar el repos🔗itorio
+### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/aydin-due/cine_bot.git
 cd cine_bot
@@ -84,4 +83,4 @@ flutter run
 ---
 
 ## Enlaces de descarga
-- 🔗 [APK (Android)](https://github.com/aydin-due/cine_bot/releases/download/v1.0.0/cine_bot-v1.0.0.apk)
+- 🔗 [APK (Android)](https://drive.google.com/drive/folders/1rrlleBcXumcQZZ5JqDqIb3r9_ScXN5hs?usp=sharing)
