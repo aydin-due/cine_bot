@@ -76,7 +76,7 @@ class _MovieScreenState extends State<MovieScreen> {
                   ),
                 ],
               ),
-              title: Text(movie.title),
+              title: Text(movie.title, textAlign: TextAlign.center),
             ),
           ),
           SliverToBoxAdapter(
@@ -94,12 +94,12 @@ class _MovieScreenState extends State<MovieScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        
         // Genre tags
         Padding(
           padding: const EdgeInsets.only(bottom: 10),
           child: Row(
-            children: movie.details?.genres
+            children:
+                movie.details?.genres
                     ?.map(
                       (e) => Padding(
                         padding: const EdgeInsets.only(right: 7),
@@ -110,7 +110,7 @@ class _MovieScreenState extends State<MovieScreen> {
                 [],
           ),
         ),
-        
+
         // Rating and vote count
         Row(
           children: [
@@ -150,10 +150,22 @@ class _MovieScreenState extends State<MovieScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  MovieDetail(title: AppLocalizations.of(context)!.originalTitle, value: movie.originalTitle),
-                  MovieDetail(title: AppLocalizations.of(context)!.runtime, value: '${movie.details?.runtime} min'),
-                  MovieDetail(title: AppLocalizations.of(context)!.releaseDate, value: movie.details?.releaseDate ?? ''),
-                  MovieDetail(title: AppLocalizations.of(context)!.directedBy, value: movie.details?.director ?? ''),
+                  MovieDetail(
+                    title: AppLocalizations.of(context)!.originalTitle,
+                    value: movie.originalTitle,
+                  ),
+                  MovieDetail(
+                    title: AppLocalizations.of(context)!.runtime,
+                    value: '${movie.details?.runtime} min',
+                  ),
+                  MovieDetail(
+                    title: AppLocalizations.of(context)!.releaseDate,
+                    value: movie.details?.releaseDate ?? '',
+                  ),
+                  MovieDetail(
+                    title: AppLocalizations.of(context)!.directedBy,
+                    value: movie.details?.director ?? '',
+                  ),
                 ],
               ),
             ),
@@ -162,15 +174,21 @@ class _MovieScreenState extends State<MovieScreen> {
         CustomDivider(),
 
         // Storyline
-        Text(AppLocalizations.of(context)!.storyline, style: theme.headlineSmall),
+        Text(
+          AppLocalizations.of(context)!.storyline,
+          style: theme.headlineSmall,
+        ),
         const SizedBox(height: 10),
-        Text(movie.overview, style: theme.bodyMedium?.copyWith(color: lightGrey)),
+        Text(
+          movie.overview,
+          style: theme.bodyMedium?.copyWith(color: lightGrey),
+        ),
         CustomDivider(),
-        
+
         // Cast
         Text(AppLocalizations.of(context)!.cast, style: theme.headlineSmall),
         Container(
-          height: 220,
+          height: 225,
           padding: const EdgeInsets.symmetric(vertical: 15),
           child: ListView.separated(
             separatorBuilder: (context, index) => const SizedBox(width: 15),
