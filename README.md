@@ -35,14 +35,20 @@
 ---
 ## Demo
 
+![Demo video](https://www.youtube.com/shorts/OzwlkTCWAos)
+
 Chat:
-![chat](readme_assets/chat.mp4)
+![chat](readme_assets/chat.png)
 
 Watchlist:
-![watchlist](readme_assets/watchlist.mp4)
+![watchlist](readme_assets/watchlist.png)
+
+Movie details:
+![details](readme_assets/details.png)
+![details](readme_assets/details_scrolled.png)
 
 Error handling:
-![error_handling](readme_assets/error_handling.mp4)
+![error_handling](readme_assets/error.png)
 
 Pipedream RequestBin:
 ![pipedream_requestbin](readme_assets/pipedream.png)

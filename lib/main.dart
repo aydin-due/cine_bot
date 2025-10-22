@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      locale: const Locale('es'),
+      // locale: const Locale('es'),
       title: 'CineBot',
       debugShowCheckedModeBanner: false,
       theme: theme,
